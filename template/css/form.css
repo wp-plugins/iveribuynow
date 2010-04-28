@@ -1,0 +1,18 @@
+#iveri-payment-form        { width:380px;padding:0 90px 20px;margin:auto;background:#f7f7f7;border:1px solid #ddd; }
+#iveri-payment-form fieldset { margin: 10px 0px; }
+#iveri-payment-form div                        { clear:both;position:relative;margin:10px 0 10px; }
+#iveri-payment-form label                      { cursor:pointer;display:block; }
+#iveri-payment-form input[type="text"]         { width:300px;border:1px solid #999;padding:5px;-moz-border-radius:4px; }
+#iveri-payment-form input[type="text"]:focus   { border-color:#777; }
+#iveri-payment-form #iveri-cvv { width: 50px; }
+
+/* validation errors */
+#iveri-payment-form p.error { margin: 0px; font-size: 0.9em; color: #FF0000; display: none; }
+#iveri-payment-form p.info { margin: 0px; font-size: 0.9em; display: block; }
+
+
+/* submit button */
+#iveri-payment-form input[type="submit"]       { cursor:pointer;border:1px solid #999;padding:5px;-moz-border-radius:4px;background:#eee; }
+#iveri-payment-form input[type="submit"]:hover,
+#iveri-payment-form input[type="submit"]:focus { border-color:#333;background:#ddd; }
+#iveri-payment-form input[type="submit"]:active{ margin-top:1px; }
